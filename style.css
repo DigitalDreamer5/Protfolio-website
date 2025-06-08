@@ -1,7 +1,7 @@
-/* Google Fonts Import */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ body {
     color: var(--text-color);
 }
 
-/* Header and Navigation */
+
 .header {
     position: fixed;
     top: 0;
@@ -92,7 +92,7 @@ section {
     color: var(--main-color);
 }
 
-/* Home Section */
+
 .home {
     display: flex;
     align-items: center;
@@ -188,7 +188,7 @@ section {
     }
 }
 
-/* About Section */
+
 .about {
     display: flex;
     justify-content: center;
@@ -222,7 +222,7 @@ section {
     line-height: 1.7;
 }
 
-/* Education Section */
+
 .education {
     background: var(--bg-color);
 }
@@ -282,7 +282,7 @@ section {
     padding-top: .5rem;
 }
 
-/* Skills Section */
+
 .skills {
     background: var(--second-bg-color);
 }
@@ -343,7 +343,7 @@ section {
     width: 70%;
 }
 
-/* Contact Section */
+
 .contact {
     background: var(--bg-color);
 }
@@ -384,7 +384,7 @@ section {
     cursor: pointer;
 }
 
-/* Footer */
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -414,7 +414,7 @@ footer a i:hover {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-/* Animation Classes */
+
 .start-animation {
     animation: fadeIn 1s forwards;
     opacity: 0;
@@ -431,12 +431,12 @@ footer a i:hover {
     }
 }
 
-/* Form Validation Styles */
+
 .error {
     border: 2px solid #ff6b6b !important;
 }
 
-/* Responsive Media Queries */
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -616,7 +616,7 @@ footer a i:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 768px) {
     .under25-link {
         font-size: 1.5rem;
